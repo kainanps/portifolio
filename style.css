@@ -13,6 +13,7 @@ nav.menu{
     height: 120px;
     width: 100vw;
     position: fixed;
+    background: #fff;
     z-index: 1000;
 }
 
@@ -56,6 +57,10 @@ div.about{
 
 div.about img{
     max-height: 20vw;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     filter: drop-shadow(1px 1px 10px #6d07f35d);
+}
+
+div.contacts{
+    background: rgb(110,7,243);
 }
