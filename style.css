@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap');
 
 *{
     margin: 0;
@@ -31,8 +33,10 @@ nav.menu ul a{
     display: flex;
     align-items: center;
     padding: 0 40px;
-    font-family: Rajdhani;
-    font-size: 1.8em;
+    margin-right: 1px;
+    font-family: 'Barlow Condensed';
+    /* font-weight: 900; */
+    font-size: 2.1em;
     color: #6E07F3;
     border-radius: 5%;
     transition: 0.3s ease-in;
@@ -68,6 +72,7 @@ div.home{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    position: relative;
 }
 
 div.home h2{
@@ -86,6 +91,13 @@ div.home h2 .underlineHideShow{
     }70%,100%{
         opacity: 1;
     }
+}
+
+div.home span.codigo{
+    position: absolute;
+    font-family: 'Press Start 2P';
+    color: #6E07F3;
+    font-size: .8em;
 }
 
 div.home p{
@@ -109,6 +121,6 @@ div.home div.imgs img.iconsLeft, img.iconsRight{
     margin: 40px;
 }
 
-div.contacts{
+div.projects, div.about{
     background: rgb(110,7,243);
 }
