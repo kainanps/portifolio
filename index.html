@@ -10,18 +10,26 @@
 <body>
     <nav class="menu">
         <ul>
-            <li>Produções</li>
-            <li>Contacts</li>
-            <li>Sobre</li>
+            <li><a href="#home" class="itemChecked">Home</li></a></li>
+            <li><a href="#contacts">Produções</a></li>
+            <li><a href="#contacts">Contato</a></li>
+            <li><a href="#contacts">Sobre</a></li>
         </ul>
     </nav>
     <section class="conteudo">
-        <div class="about">
-            <img src="./img/perfil-portifolio(2).png" alt="Perfil">
+        <div class="home" id="home">
+            <h2>Web Developer, IT Technical Support<span class="underlineHideShow">|</span></h2>
+            <p>Sigo me especializando em Tecnologia da Informação.</p>
+            <div class="imgs">
+                <img class ="iconsLeft"src="./img/icons-left.png" alt="laptop, book">
+                <img src="./img/perfil-portifolio(2).png" alt="Perfil">
+                <img class ="iconsRight"src="./img/icons-right.png" alt="desktop, headphone">
+            </div>
         </div>
-        <div class="contacts">
+        <div class="contacts" id="contacts">
 
         </div>
     </section>
+    <script src="./js/app.js"></script>
 </body>
 </html>
