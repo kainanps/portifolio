@@ -35,7 +35,6 @@ nav.menu ul a{
     padding: 0 40px;
     margin-right: 1px;
     font-family: 'Barlow Condensed';
-    /* font-weight: 900; */
     font-size: 2.1em;
     color: #6E07F3;
     border-radius: 5%;
@@ -112,7 +111,6 @@ div.home div.imgs{
 
 div.home div.imgs img{
     max-height: 40vh;
-    /* margin-bottom: 20px; */
     filter: drop-shadow(1px 1px 10px #6d07f35d);
 }
 

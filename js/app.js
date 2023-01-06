@@ -107,10 +107,10 @@ function posicionarCodigo(item) {
     const left = rand(0, divHome.clientWidth - 200)
     const top = rand(120, divHome.clientHeight - 10)
     const comando = comandos[rand(0, 10)]
-
-    item.style.top = top + "px"
-    item.style.left = left + "px"
+    
     item.innerText = comando
+    item.style.left = left + "px"
+    item.style.top = top + "px"
     item.animate([
         // keyframes
         { opacity: 0 },
